@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>The HTML Dialog Object</h1>
+        <dialog id="myDialog">Trolley <br> STatus</dialog>
+    <h2>The Dialog will open 3 seconds after window load and close, 5 seconds after first showing, on it's own</h2>
+
+    <script>
+
+
+      function init() {
+        setTimeout(function () {
+          const dialog = document.getElementById("myDialog");
+          dialog.show();
+          setTimeout(function () {
+          dialog.close();
+        }, 5000);
+          showDialog(dialog);
+        }, 1000);
+
+        
+
+      }
+
+      init();
+    </script>
+  </body>
+</html>

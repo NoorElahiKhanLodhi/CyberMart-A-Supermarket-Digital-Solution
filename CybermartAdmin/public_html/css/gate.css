@@ -1,0 +1,157 @@
+#page{
+    background-image: url(/assets/gif.png);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: grey;
+    color: whitesmoke;
+    animation: page 1s;
+}
+@keyframes page {
+    from{opacity: 0%;
+    background-color: white;}
+    to{opacity: 100%;
+        background-color: grey;}
+}
+
+#heading{
+    margin: auto;
+    margin-left: 10em;
+    background-color: orange;
+    width: fit-content;
+    padding: 0.6em;
+    border-radius: 0.5em;
+    outline-style: solid;
+    outline-color: saddlebrown;
+    font-size: 3em;
+    animation: head 1s;
+    text-shadow: 4px 4px 4px grey;
+}
+@keyframes head {
+    from{opacity: 0%; transform: translateY(-5em);}
+    to{opacity: 100%; transform: translateY(0em);}
+}
+
+#work{
+    opacity: 90%;
+    float: right;
+    border-radius: 5em;
+    outline: 0.2em;
+    outline-style: solid;
+    outline-color: saddlebrown;
+    margin-right: 8em;
+    animation: logo 1s;
+    box-shadow: 2em 2em 4em white;
+    height: fit-content;
+    width: 800px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: large;
+    background: rgba(255, 165, 0, .7);
+}
+#work:hover{
+    opacity: 100%;
+    box-shadow: 2em 2em 8em saddlebrown;
+}
+
+#qrScanner{
+    width:500px;
+    height: 500px;
+    margin:0px auto;
+ }
+
+@keyframes logo {
+    from{transform: translateX(100em);}
+    to{transform: translateY(0em);}
+}
+
+#add_product{margin-top: -7em;
+    animation: menu 0.5s;}
+#add_trolley{animation: menu 1s;}
+#manage_db{animation: menu 1.5s;}
+#home{animation: menu 2s;}
+#menu{
+    position: fixed;
+}
+#add_product,#add_trolley,#manage_db,#home{
+    background-color:orange;
+    width: 20em;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    border-radius: 1em;
+    outline-color: white;
+    outline-width: 0.1em;
+    outline-style: solid;
+    opacity: 90%;
+    color: saddlebrown;
+    text-shadow: 3px 3px 6px white;
+}
+#add_product:hover,#add_trolley:hover,#manage_db:hover,#home:hover{
+    zoom: 1.005;
+    border-style: solid;
+    border-color: saddlebrown;
+    opacity: 100%;
+    box-shadow: 2em 2em 6em goldenrod;
+}
+@keyframes menu {
+    from{opacity: 0%; transform: translateX(-100em);}
+    to{opacity: 100%; transform: translateY(0em);}
+}
+
+a{text-decoration: none;}
+
+
+
+
+
+.container { 
+	width: 100%; 
+	max-width: 500px; 
+	margin: auto;
+    margin-bottom: 2em; 
+} 
+
+.container h1 { 
+	color: #ffffff; 
+} 
+
+.section { 
+	background-color: #ffffff; 
+	padding: 50px 30px; 
+	border: 1.5px solid #b2b2b2; 
+	border-radius: 0.25em; 
+	box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25); 
+    border-radius: 20px;
+} 
+
+#my-qr-reader { 
+	padding: 15px !important; 
+	border: 1.5px solid #b2b2b2 !important; 
+	border-radius: 20px; 
+} 
+
+#my-qr-reader img[alt="Info icon"] { 
+	display: none; 
+    border-radius: 20px;
+} 
+
+#my-qr-reader img[alt="Camera based scan"] { 
+	width: 100px !important; 
+	height: 100px !important;
+    border-radius: 20px; 
+} 
+
+#html5-qrcode-anchor-scan-type-change { 
+	text-decoration: none !important; 
+	color: #1d9bf0; 
+} 
+
+video { 
+	width: 100% !important; 
+	border: 1px solid #b2b2b2 !important; 
+    border-radius: 20px; 
+}

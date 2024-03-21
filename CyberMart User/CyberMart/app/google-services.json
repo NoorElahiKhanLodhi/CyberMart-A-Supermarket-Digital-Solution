@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1062468553888",
+    "firebase_url": "https://testhtml-218f5-default-rtdb.firebaseio.com",
+    "project_id": "testhtml-218f5",
+    "storage_bucket": "testhtml-218f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062468553888:android:c6cdb996d1645f4c838dc5",
+        "android_client_info": {
+          "package_name": "com.example.cybermart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKPB-xodpr2sulAZy0-dciP7ewZ-Ufhy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

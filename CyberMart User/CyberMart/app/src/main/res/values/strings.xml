@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cyber Mart</string>
+    <string name="google_login">GOOGLE LOGIN</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="ah_mart">CYBER MART</string>
+
+    <string name="sign_in_with_google">SIGN IN WITH GOOGLE</string>
+
+    <string name="image">image</string>
+
+
+</resources>

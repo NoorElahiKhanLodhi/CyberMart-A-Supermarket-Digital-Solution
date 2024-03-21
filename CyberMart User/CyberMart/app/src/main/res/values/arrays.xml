@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner2">
+        <item>None</item>
+        <item>Mobile Account</item>
+        <item>Credit Card</item>
+    </string-array>
+</resources>

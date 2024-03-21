@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANAGE DATABASE</title>
+  <link rel="stylesheet" href="/public_html/css/manage_db.css">
+  <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-database-compat.js"></script>
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body id="page">
+  
+<h1 id="heading">MANAGE DATABSE</h1>
+<br>
+  <div id="work">  
+    <h2 id="head2">PRODUCT INFORMATION</h1>
+    <table id="productTable">
+      <thead>
+          <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Actions</th>
+          </tr>
+      </thead>
+      <tbody>
+          <!-- Data will be populated here -->
+      </tbody>
+  </table>
+  <br>
+        <div id="qrcode">
+        </div>
+  </div>
+
+
+  <div id="work2">  
+    <h2 id="head2">Trolleys INFORMATION</h1>
+    <table id="trolleyTable">
+      <thead>
+          <tr>
+            <th>Trolley ID</th>
+            <th>Trolley Status</th>
+            <th>Bill ID</th>
+            <th>Actions</th>
+          </tr>
+      </thead>
+      <tbody>
+          <!-- Data will be populated here -->
+      </tbody>
+  </table>
+  </div>
+
+  <script src="/public_html/js/manage_db.js"></script>
+
+
+<div id="menu">
+
+  <a href="add_product.html">
+    <div id="add_product">
+    <h1>ADD PRODUCT</h1>
+  </div><br>
+  </a>
+  
+  <a href="add_trolley.html">
+    <div id="add_trolley">
+    <h1>ADD TROLLEY</h1>
+  </div><br>
+  </a>
+
+  <a href="index.html">
+    <div id="home">
+    <h1>HOME</h1>
+  </div><br>
+  </a>
+
+  <a href="gate.html">
+  <div id="gate_mode">
+    <h1 id="hh">GATE CONTROL MODE</h1>
+  </div>
+</a>
+
+</div>
+
+</body>
+</html>

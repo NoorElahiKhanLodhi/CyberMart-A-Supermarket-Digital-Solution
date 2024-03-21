@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REGISTER TROLLEY</title>
+  <link rel="stylesheet" href="/public_html/css/add_trolley.css">
+  <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-database-compat.js"></script>
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body id="page">
+  
+<h1 id="heading">REGISTER TROLLEYS AND GENERATE QR</h1>
+<br>
+  
+<div id="work">
+  <br><br>
+  <h1 id="head2">INPUT THE INFORMATION</h1>
+      <input type="text" id="tid" placeholder="Trolley ID eg.(T673)">
+      <br><br>
+      <button onclick="add_trolley()">Register Trolley & Generate QR Code</button>
+<br>
+        <div id="qrcode">
+        </div>
+    </div>
+<script src="/public_html/js/db.js"></script>
+
+  <div id="menu">
+
+    
+
+  <a href="add_product.html">
+    <div id="add_product">
+    <h1>ADD PRODUCT</h1>
+  </div><br>
+  </a>
+  
+  <a href="index.html">
+    <div id="home">
+    <h1>HOME</h1>
+  </div><br>
+  </a>
+
+  <a href="manage_db.html">
+    <div id="manage_db">
+    <h1>MANAGE DATABASE</h1>
+  </div><br>
+  </a>
+
+  <a href="gate.html">
+  <div id="gate_mode">
+    <h1 id="hh">GATE CONTROL MODE</h1>
+  </div>
+</a>
+
+</div>
+
+</body>
+</html>
